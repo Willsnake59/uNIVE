@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "importHelpers": false,
+    "noEmitHelpers": false,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "paths": {
+      "@vercel/webpack-nft": ["./webpack-nmt/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "target"]
+}
